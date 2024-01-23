@@ -6,7 +6,7 @@ export const SocialsList = () => {
     <SocialsUl>
       <li>
         <SocialsLink
-          href="https://github.com/Robertw8"
+          href="https://github.com/Svitly4nyi-Vla2yslav"
           target="_blank"
           rel="noreferrer nofollow noopener"
           aria-label="Open github"
@@ -18,7 +18,7 @@ export const SocialsList = () => {
       </li>
       <li>
         <SocialsLink
-          href="https://www.linkedin.com/in/arsenii-brovchuk/"
+          href="https://www.linkedin.com/in/vladyslav-svitlychnyi/"
           target="_blank"
           rel="noreferrer nofollow noopener"
           aria-label="Open linkedin"

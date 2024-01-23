@@ -3,7 +3,7 @@ import { TitlePrimary } from "./Title.styled";
 export const Title = () => {
   return (
     <TitlePrimary>
-      <a href="#hero">robertw8</a>
+      <a href="#hero">Svitly4nyi-Vla2yslav </a>
     </TitlePrimary>
   );
 };
