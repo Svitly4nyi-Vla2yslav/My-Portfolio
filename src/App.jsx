@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { GlobalStyles } from "./styles/globalStyles.js";
 import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
