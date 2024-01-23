@@ -165,7 +165,7 @@ Error generating stack: `+o.message+`
     font-size: 32px;
     line-height: 1;
   }
-`,yg=()=>P.jsx(fx,{children:P.jsx("a",{href:"#hero",children:"Svitly4nyi-Vla2yslav "})}),hx=B.header`
+`,yg=()=>P.jsx(fx,{children:P.jsxs("a",{href:"#hero",children:["Svitly4nyi",P.jsx("br",{}),"Vla2yslav "]})}),hx=B.header`
   width: 100%;
   padding-top: 40px;
   padding-bottom: 20px;
