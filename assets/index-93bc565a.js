@@ -155,7 +155,7 @@ Error generating stack: `+o.message+`
 `,th=B.svg`
   fill: #ffffff;
   transition-duration: 300ms;
-`,Ve="/My-Portfolio/assets/sprite-41497b9a.svg",gg=()=>P.jsxs(dx,{children:[P.jsx("li",{children:P.jsx(eh,{href:"https://github.com/Robertw8",target:"_blank",rel:"noreferrer nofollow noopener","aria-label":"Open github",children:P.jsx(th,{className:"socials-icon",width:"25",height:"24",children:P.jsx("use",{href:`${Ve}#icon-github`})})})}),P.jsx("li",{children:P.jsx(eh,{href:"https://www.linkedin.com/in/arsenii-brovchuk/",target:"_blank",rel:"noreferrer nofollow noopener","aria-label":"Open linkedin",children:P.jsx(th,{className:"socials-icon",width:"25",height:"24",children:P.jsx("use",{href:`${Ve}#icon-linkedin`})})})})]}),fx=B.h2`
+`,Ve="/My-Portfolio/assets/sprite-41497b9a.svg",gg=()=>P.jsxs(dx,{children:[P.jsx("li",{children:P.jsx(eh,{href:"https://github.com/Svitly4nyi-Vla2yslav",target:"_blank",rel:"noreferrer nofollow noopener","aria-label":"Open github",children:P.jsx(th,{className:"socials-icon",width:"25",height:"24",children:P.jsx("use",{href:`${Ve}#icon-github`})})})}),P.jsx("li",{children:P.jsx(eh,{href:"https://www.linkedin.com/in/vladyslav-svitlychnyi/",target:"_blank",rel:"noreferrer nofollow noopener","aria-label":"Open linkedin",children:P.jsx(th,{className:"socials-icon",width:"25",height:"24",children:P.jsx("use",{href:`${Ve}#icon-linkedin`})})})})]}),fx=B.h2`
   font-weight: 700;
   font-size: 24px;
   line-height: calc(32 / 24);
@@ -165,7 +165,7 @@ Error generating stack: `+o.message+`
     font-size: 32px;
     line-height: 1;
   }
-`,yg=()=>P.jsx(fx,{children:P.jsx("a",{href:"#hero",children:"robertw8"})}),hx=B.header`
+`,yg=()=>P.jsx(fx,{children:P.jsx("a",{href:"#hero",children:"Svitly4nyi-Vla2yslav "})}),hx=B.header`
   width: 100%;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -320,7 +320,7 @@ Error generating stack: `+o.message+`
     justify-content: start;
     margin-top: 50px;
   }
-`,Px=()=>{const t=ce.useRef(null);ce.useEffect(()=>{new ih(t.current,{strings:["I'm Arsenii."],typeSpeed:60})});const e=ce.useRef(null);return ce.useEffect(()=>{new ih(e.current,{strings:["I develop web and mobile applications using React/React Native and Node.js. Feel free to contact me by clicking a button below or check out my projects! :D"],typeSpeed:20})}),P.jsxs(bx,{id:"hero",children:[P.jsxs(xx,{children:[P.jsxs(kx,{children:["Hello there! ",P.jsx(Sx,{ref:t})]}),P.jsx(Cx,{ref:e}),P.jsx(_x,{children:P.jsx(ai,{text:"Contact me",href:"#contact"})})]}),P.jsx(Mc,{top:"150px",right:"",bottom:"",left:"-300px"})]})},Ex=B.li``,Tx=B.div`
+`,Px=()=>{const t=ce.useRef(null);ce.useEffect(()=>{new ih(t.current,{strings:["I'm Vlad."],typeSpeed:60})});const e=ce.useRef(null);return ce.useEffect(()=>{new ih(e.current,{strings:["I am a 👶and ambitious 👨‍💻 with a deep understanding of modern technologies. My intensive hands-on experience and excellent knowledge enable me to approach tasks creatively and effectively. I am ready to apply my skills and energy to achieve your goals. My inclination towards active learning and rapid adaptation allows me to make a significant contribution to any project."],typeSpeed:20})}),P.jsxs(bx,{id:"hero",children:[P.jsxs(xx,{children:[P.jsxs(kx,{children:["Hello there! ",P.jsx(Sx,{ref:t})]}),P.jsx(Cx,{ref:e}),P.jsx(_x,{children:P.jsx(ai,{text:"Contact me",href:"#contact"})})]}),P.jsx(Mc,{top:"150px",right:"",bottom:"",left:"-300px"})]})},Ex=B.li``,Tx=B.div`
   display: inline;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -689,7 +689,7 @@ https://sweetalert2.github.io/#ajax-request`),Cv(u),typeof u.title=="string"&&(u
   color: #ff6f5b;
 
   margin-top: 10px;
-`;const ck=()=>{const[t,e]=nk("xbjvgkzd");return t.succeeded&&ok(),P.jsxs(sk,{onSubmit:e,children:[P.jsx(ak,{id:"email",type:"email",name:"email",placeholder:"Email"}),P.jsx(ph,{prefix:"Email",field:"email",errors:t.errors}),P.jsx(lk,{id:"message",name:"message",placeholder:"Message"}),P.jsx(ph,{prefix:"Message",field:"message",errors:t.errors}),P.jsx(uk,{type:"submit",disabled:t.submitting,children:"Send message"})]})},dk=B.section`
+`;const ck=()=>{const[t,e]=nk("mrgnepoj");return t.succeeded&&ok(),P.jsxs(sk,{onSubmit:e,children:[P.jsx(ak,{id:"email",type:"email",name:"email",placeholder:"Email"}),P.jsx(ph,{prefix:"Email",field:"email",errors:t.errors}),P.jsx(lk,{id:"message",name:"message",placeholder:"Message"}),P.jsx(ph,{prefix:"Message",field:"message",errors:t.errors}),P.jsx(uk,{type:"submit",disabled:t.submitting,children:"Send message"})]})},dk=B.section`
   padding-top: 40px;
   padding-bottom: 40px;
   position: relative;
@@ -875,4 +875,4 @@ https://sweetalert2.github.io/#ajax-request`),Cv(u),typeof u.title=="string"&&(u
     margin-top: 10px;
   }
   font-size: 14px;
-`,BE=({period:t,title:e,name:n,text:i,responsibilities:r})=>{const o=ce.useId();return P.jsxs(RE,{children:[P.jsx(AE,{children:t}),P.jsx(DE,{children:e}),P.jsx(LE,{children:n}),P.jsx($E,{children:i}),P.jsx(jE,{children:r.map(s=>P.jsxs(FE,{children:[" - ",s]},o))})]})},NE=[{period:"March 2022 - July 2022",title:"Trainee Web developer",name:"BULKA Market Full-time internship",text:"During my internship as a web developer at this company, I had the opportunity to gain practical experience in the web development. During my work at BULKA Market, I mainly focused on:",responsibilities:["improving my skills and participating in team projects under the guidance of experienced developers","debugging, ensuring responsive design and performance optimization","creating and enhancing UI/UX using JavaScript, HTML/CSS and a bit of jQuery"]},{period:"Apr 2023 - Sep 2023",title:"Junior React developer",name:"FusionWave AI | Part-time",text:"In this startup, I significantly improved my knowledge in frontend development by working with technologies that were new to me. My responsibilities included:",responsibilities:["development of the company's website, as well as other unreleased projects","working with state and routing using React Router and Redux toolkit","documentation writing"]}],UE=()=>{const t=ce.useId();return P.jsx(OE,{id:"experience",children:P.jsxs(ME,{children:[P.jsx(Ic,{children:"Experience"}),P.jsx(IE,{children:NE.map(e=>P.jsx(BE,{...e},t))})]})})},HE=()=>P.jsxs(P.Fragment,{children:[P.jsx(ax,{}),P.jsx(zE,{}),P.jsx(gx,{}),P.jsxs("main",{children:[P.jsx(Px,{}),P.jsx(UE,{}),P.jsx($x,{}),P.jsx(Kx,{}),P.jsx(mk,{})]}),P.jsx(wk,{})]});xl.createRoot(document.getElementById("root")).render(P.jsx(HE,{}));
+`,BE=({period:t,title:e,name:n,text:i,responsibilities:r})=>{const o=ce.useId();return P.jsxs(RE,{children:[P.jsx(AE,{children:t}),P.jsx(DE,{children:e}),P.jsx(LE,{children:n}),P.jsx($E,{children:i}),P.jsx(jE,{children:r.map(s=>P.jsxs(FE,{children:[" - ",s]},o))})]})},NE=[{period:"",title:"My experience will be here 🙂 ",name:"",text:"",responsibilities:["","",""]},{period:"",title:"My experience will be here 🙂",name:"",text:"",responsibilities:["","",""]}],UE=()=>{const t=ce.useId();return P.jsx(OE,{id:"experience",children:P.jsxs(ME,{children:[P.jsx(Ic,{children:"Experience"}),P.jsx(IE,{children:NE.map(e=>P.jsx(BE,{...e},t))})]})})},HE=()=>P.jsxs(P.Fragment,{children:[P.jsx(ax,{}),P.jsx(zE,{}),P.jsx(gx,{}),P.jsxs("main",{children:[P.jsx(Px,{}),P.jsx(UE,{}),P.jsx($x,{}),P.jsx(Kx,{}),P.jsx(mk,{})]}),P.jsx(wk,{})]});xl.createRoot(document.getElementById("root")).render(P.jsx(HE,{}));
