@@ -12,5 +12,5 @@ export default defineConfig({
           assets: '/src/assets'
         },
       },
-      base: '/Svitly4nyi-Vla2yslav/My-Portfolio/',
+      base: '/My-Portfolio/',
     });
