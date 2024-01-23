@@ -1,27 +1,28 @@
-import { Route, Routes } from 'react-router-dom';
-import SharedLayout from 'components/SharedLayout/SharedLayout';
-import FirstPage from 'pages/FirstPage/FirstPage';
-import SecondPage from 'pages/SecondPage/SecondPage';
-import HalfPage from 'pages/HalfPage/HalfPage';
-import ErrorPage from 'pages/ErrorPage/ErrorPage';
-import { AppWrapper } from './App.styled';
+import React from "react";
+import { GlobalStyles } from "./styles/globalStyles.js";
+import { Header } from "./components/Header/Header";
+import { Hero } from "./components/Hero/Hero";
+import { Skills } from "./components/Skills/Skills";
+import { Projects } from "./components/Projects/Projects";
+import { Contact } from "./components/Contact/Contact";
+import { Footer } from "./components/Footer/Footer";
+import { Background } from "./components/Background/Background";
+import { Experience } from "./components/Experience/Experience.jsx";
 
-const test = import.meta.env.VITE_API_TEST;
-
-function App() {
-  console.log(test);
+export const App = () => {
   return (
-    <AppWrapper>
-      <Routes>
-        <Route path="/" element={<SharedLayout />}>
-          <Route path="/first" element={<FirstPage />} />
-          <Route path="/second" element={<SecondPage />}>
-            <Route path=":half" element={<HalfPage />} />
-          </Route>
-          <Route path="*" element={<ErrorPage />} />
-        </Route>
-      </Routes>
-    </AppWrapper>
+    <>
+      <GlobalStyles />
+      <Background />
+      <Header />
+      <main>
+        <Hero />
+        <Experience />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
+    </>
   );
-}
-export default App;
+};
