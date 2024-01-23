@@ -12,5 +12,5 @@ export default defineConfig({
           assets: '/src/assets'
         },
       },
-      base: '/react_vite/',
+      base: '/Svitly4nyi-Vla2yslav/My-Portfolio/',
     });
