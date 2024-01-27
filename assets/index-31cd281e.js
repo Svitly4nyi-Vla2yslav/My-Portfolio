@@ -818,7 +818,7 @@ background-color: transparent;
 color: white;
 display: inline-block;
 position: relative;
-padding: 15px 30px;
+padding: 20px 5px;
 border: 1px solid;
 border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
 border-image-slice: 1;
