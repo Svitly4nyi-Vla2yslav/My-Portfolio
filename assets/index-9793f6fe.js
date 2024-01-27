@@ -812,7 +812,7 @@ https://sweetalert2.github.io/#ajax-request`),P0(u),typeof u.title=="string"&&(u
   }
 `,xk=B.div`
 display: flex;
-`,gh=B.button`
+`,gh=B.a`
 text-decoration: none;
 background-color: transparent;
 color: white;
