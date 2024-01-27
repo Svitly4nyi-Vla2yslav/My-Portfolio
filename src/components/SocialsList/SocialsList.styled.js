@@ -7,7 +7,11 @@ const SocialsUl = styled.ul`
   margin-top: 20px;
 
   @media screen and (min-width: 768px) {
-    margin: 0;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 
   @media screen and (max-width: 767px) {

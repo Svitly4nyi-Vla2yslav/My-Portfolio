@@ -7,7 +7,7 @@ const HeroSection = styled.section`
   padding-bottom: 0;
 
   @media screen and (min-width: 768px) {
-    height: 800px;
+    height: 560px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -43,7 +43,7 @@ const Title = styled.h1`
     font-size: 72px;
     line-height: 1;
     text-align: left;
-    margin-top: 90px;
+    margin-top: 150px;
   }
   @media screen and (min-width: 980px) {
     font-size: 88px;

@@ -7,13 +7,13 @@ export const NavBar = () => {
     <nav>
       <NavList>
         <li>
-          <Link href="#experience" text="Experience" target="_self" />
+          <Link href="#projects" text="Projects" target="_self" />
         </li>
         <li>
           <Link href="#skills" text="Skills" target="_self" />
         </li>
         <li>
-          <Link href="#projects" text="Projects" target="_self" />
+          <Link href="#experience" text="Experience" target="_self" />
         </li>
         <li>
           <Link href="#contact" text="Contact" target="_self" />

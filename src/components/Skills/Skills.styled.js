@@ -4,14 +4,17 @@ const SkillsSection = styled.section`
   position: relative;
   padding-top: 0;
   padding-bottom: 40px;
+  margin-top: 145px;
 
   @media screen and (min-width: 768px) {
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-top: 0;
   }
   @media screen and (min-width: 980px) {
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 0;
   }
 `;
 

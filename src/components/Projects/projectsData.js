@@ -1,9 +1,9 @@
 export const projects = [
     {
       title: "Tasty Treats",
-      type: "Team project (Team Lead).",
+      type: "Team project (Developer).",
       description:
-        "Page with recipe search with theme toggle, various search filters, pagination, modal windows, with dynamic content rendering, animations and adding recipe to favorites logic. My tasks: search filters, in catalog, on-scroll animations, part of favorites page, help with modal windows and many other features and fixed throughout the whole project in the process of assisting the teammates.",
+        "Page with recipe search with theme toggle, various search filters, pagination, modal windows, with dynamic content rendering, animations and adding recipe to favorites logic. My tasks: search filters, in catalog, on-scroll animations.",
       technologies: [
         "HTML",
         "SCSS",
@@ -11,8 +11,8 @@ export const projects = [
         "REST API",
         "Responsive Layout",
       ],
-      projectLink: "https://robertw8.github.io/project-recipes/",
-      codeLink: "https://github.com/Robertw8/project-recipes",
+      projectLink: "https://andreys86.github.io/Project-Yummy-Creators-/",
+      codeLink: "https://github.com/AndreyS86/Project-Yummy-Creators-",
     },
     {
       title: "ContactHub",
@@ -29,17 +29,17 @@ export const projects = [
         "axios",
         "react-particles",
       ],
-      projectLink: "https://robertw8.github.io/contact-hub/",
-      codeLink: "https://github.com/Robertw8/contact-hub",
+      projectLink: "https://svitly4nyi-vla2yslav.github.io/goit-react-hw-08-phonebook/",
+      codeLink: "https://github.com/Svitly4nyi-Vla2yslav/goit-react-hw-08-phonebook/tree/main",
     },
     {
       title: "The Watch Spot",
       type: "Team project.",
       description:
-        "A landing page with wide functionality, including theme switch, selecting watch from catalog, slider, mobile menu, and modal window, scroll-up button, and obviously, beautiful animations. My tasks: modal window, mobile menu,catalog section, on-scroll animations and theme switch.",
+        "A landing page with wide functionality, including theme switch, selecting watch from catalog, slider, mobile menu, and modal window, scroll-up button, and obviously, beautiful animations. My tasks: modal window, mobile menu.",
       technologies: ["HTML/CSS", "JavaScript", "Responsive Layout"],
-      projectLink: "https://gladja.github.io/team-project/",
-      codeLink: "https://github.com/Robertw8/the-watch-spot",
+      projectLink: "https://startonio.github.io/project-05/",
+      codeLink: "https://github.com/Startonio/project-05",
     },
     {
       title: "Filmic explorer",
@@ -53,7 +53,7 @@ export const projects = [
         "REST API",
         "axios",
       ],
-      projectLink: "https://robertw8.github.io/filmic-explorer/",
-      codeLink: "https://github.com/Robertw8/filmic-explorer",
+      projectLink: "https://svitly4nyi-vla2yslav.github.io/goit-react-hw-05-movies/",
+      codeLink: "https://github.com/Svitly4nyi-Vla2yslav/goit-react-hw-05-movies",
     },
   ];
