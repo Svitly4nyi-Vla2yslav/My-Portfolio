@@ -1,4 +1,5 @@
 import sprite from "../../assets/images/sprite.svg";
+import spriteOne from "../../assets/images/sprite-1.svg"
 
 export const skills = [
   {
@@ -22,9 +23,9 @@ export const skills = [
     link: "https://redux.js.org/",
   },
   {
-    name: "Material-UI",
-    icon: `${sprite}#icon-mui`,
-    link: "https://mui.com/",
+    name: "Docker",
+    icon: `${spriteOne}#Docker`,
+    link: "https://www.docker.com/",
   },
   {
     name: "HTML",
@@ -57,9 +58,9 @@ export const skills = [
     link: "https://git-scm.com/",
   },
   {
-    name: "CS",
-    icon: `${sprite}#icon-cs`,
-    link: "https://learn.microsoft.com/en-us/dotnet/csharp/",
+    name: "Postman",
+    icon: `${spriteOne}#postman`,
+    link: "https://www.postman.com/",
   },
   {
     name: "nodejs",

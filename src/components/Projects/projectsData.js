@@ -44,12 +44,11 @@ export const projects = [
     {
       title: "Filmic explorer",
       type: "Training project.",
-      description: "A small app about movies to improve routing and MUI skills.",
+      description: "A small app about movies to improve routing.",
       technologies: [
         "React",
         "React-Router",
         "Styled Components",
-        "Material-UI",
         "REST API",
         "axios",
       ],
