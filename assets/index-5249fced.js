@@ -842,7 +842,7 @@ transition: .8s cubic-bezier(.165, .84, .44, 1);
     background: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
     transition: .8s cubic-bezier(.165, .84, .44, 1);
   }
-  &:hover {
+  &:is(:hover, :focus)  {
     background: rgba(255, 255, 255, 0);
 
     &:before {
