@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Container = styled.div`
 display: flex;
 `;
-const Button = styled.button`
+const Link = styled.a`
 text-decoration: none;
 background-color: transparent;
 color: white;
@@ -45,4 +45,4 @@ transition: .8s cubic-bezier(.165, .84, .44, 1);
 
 `;
 
-export {Container, Button}
+export {Container, Link}
