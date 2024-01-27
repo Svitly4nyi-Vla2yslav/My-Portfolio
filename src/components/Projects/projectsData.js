@@ -1,4 +1,20 @@
 export const projects = [
+  {
+    title: "Power Pulse 2.0",
+    type: "Team project (Developer).",
+    description:
+      "An application for personalized diet adjustment based on the user's physical characteristics and lifestyle. A huge selection of food and exercises, all the functionality you need to track your diet every day. My tasks:  filters, in catalog, on-scroll animations.",
+    technologies: [
+      "TypeScript",
+      "React",
+      "Redux",
+      "Vite",
+      "Emotion Styled",
+      "Ant Design",
+    ],
+    projectLink: "https://robertw8.github.io/powerpulse/welcome",
+    codeLink: "https://github.com/Robertw8/powerpulse",
+  },
     {
       title: "Tasty Treats",
       type: "Team project (Developer).",
