@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import  { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { Link } from "../Link/Link";
 import { Rings } from "../Rings/Rings";
 import Typed from "typed.js";
@@ -12,6 +12,7 @@ import {
   Intro,
   LinkWrapper,
 } from "./Hero.styled";
+import ImageAvatar from "../Image/Image";
 
 export const Hero = () => {
   const span = useRef(null);
@@ -37,15 +38,16 @@ export const Hero = () => {
   return (
     <HeroSection id="hero">
       <Container>
+
         <Title>
           Hello there! <Span ref={span}></Span>
-        </Title>
+          </Title>
         <Intro ref={intro}></Intro>
         <LinkWrapper>
           <Link text={"Contact me"} href="#contact" />
         </LinkWrapper>
       </Container>
-      <Rings top="150px" right="" bottom="" left="-300px" />
+      {/* <Rings top="150px" right="" bottom="" left="-300px" /> */}
     </HeroSection>
   );
 };

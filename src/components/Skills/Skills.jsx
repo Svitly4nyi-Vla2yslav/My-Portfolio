@@ -1,5 +1,5 @@
 import  { useId } from "react";
-import { Rings } from "../Rings/Rings";
+// import { Rings } from "../Rings/Rings";
 import { SkillsItem } from "../SkillsItem/SkillsItem";
 
 import { SkillsSection, SkillsContainer, SkillsList } from "./Skills.styled";
@@ -19,7 +19,7 @@ export const Skills = () => {
           ))}
         </SkillsList>
       </SkillsContainer>
-      <Rings top="" right="-300px" bottom="40px" left="" />
+      {/* <Rings top="" right="-300px" bottom="40px" left="" /> */}
     </SkillsSection>
   );
 };

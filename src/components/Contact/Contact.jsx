@@ -1,6 +1,6 @@
 
 import { ContactForm } from "../ContactForm/ContactForm";
-import { Rings } from "../Rings/Rings";
+// import { Rings } from "../Rings/Rings";
 
 import {
   ContactSection,
@@ -22,7 +22,7 @@ export const Contact = () => {
           </ContactText>
         </div>
         <ContactForm />
-        <Rings top="200px" right="" bottom="" left="-300px" />
+        {/* <Rings top="200px" right="" bottom="" left="-300px" /> */}
       </Container>
     </ContactSection>
   );
