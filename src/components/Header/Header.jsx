@@ -1,4 +1,4 @@
-import  { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { NavBar } from "../NavBar/NavBar";
 import { SocialsList } from "../SocialsList/SocialsList";
 import { Title } from "../Title/Title";
@@ -25,16 +25,20 @@ export const Header = () => {
   });
 
   return (
-    <HeaderSection $isScrolled={isScrolled}>
-      <Container className="container">
-        <Column>
-          <Title />
-          <NavBar />
-        </Column>
-        <div>
-          <SocialsList />
-        </div>
-      </Container>
-    </HeaderSection>
+    <Container>
+      <Title />
+      <HeaderSection $isScrolled={isScrolled}>
+
+        <Container className="container">
+          <Column>
+            <div>
+              <SocialsList />
+            </div>
+            <NavBar />
+          </Column>
+        </Container>
+      </HeaderSection>
+
+    </Container>
   );
 };

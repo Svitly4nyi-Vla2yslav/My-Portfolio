@@ -3,7 +3,7 @@ import styled from "styled-components";
 const FooterSection = styled.footer`
   padding-top: 0 !important;
   padding-bottom: 40px;
-  background-color: #151515;
+  background-color: transparent;
   position: relative;
   z-index: 100;
 

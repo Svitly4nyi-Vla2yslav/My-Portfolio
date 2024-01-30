@@ -11,14 +11,14 @@ const PrimaryLink = styled.a`
 
   background-color: transparent;
   border: none;
-  border-bottom: 2px solid #4ee1a0;
-  padding: 10px;
+  border-bottom: 2px solid #56bb40;
+  padding: 3px;
   transition-duration: 300ms;
   white-space: nowrap;
 
   &:is(:hover, :focus) {
-    color: #4ee1a0;
-    box-shadow: 0 0.5em 0.5em -0.4em #4ee1a0;
+    color: #56bb40;
+    box-shadow: 0 0.5em 0.5em -0.4em #56bb40;
     transform: translateY(-0.25em);
   }
 

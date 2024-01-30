@@ -13,7 +13,7 @@ const ItemInner = styled.div`
   padding: 10px;
 
   &:hover {
-    box-shadow: 0 0 4px 2px #4ee1a0;
+    box-shadow: 0 0 4px 2px #56bb40;
   }
   &:hover .icon-container {
     transform: rotateY(360deg);

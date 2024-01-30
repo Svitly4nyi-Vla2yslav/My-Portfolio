@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const NavList = styled.ul`
 @media screen and (min-width: 319px) and (max-width: 400px) {
+background-color: transparent;
 display: flex;
 width: 100%;
 gap: 20px;
@@ -26,17 +27,17 @@ margin-right: 0;
   display: flex;
   width: 100%;
   gap: 25px;
-  flex-direction: row;
-  flex-wrap: wrap;
+  // flex-direction: row;
+  // flex-wrap: wrap;
   justify-content: center;
-  margin-left: 50px;
+  margin-left: -10px;
 
 }
 
   @media screen and (min-width: 1024px) {
     display: flex;
-    gap: 50px;
-    margin-left: 70px;
+    gap: 30px;
+    margin-left: -20px;
     flex-direction: row;
     flex-wrap: nowrap;
   }

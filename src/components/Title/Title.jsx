@@ -1,9 +1,9 @@
-import { TitlePrimary } from "./Title.styled";
+import { TitleLink, TitlePrimary } from "./Title.styled";
 
 export const Title = () => {
   return (
     <TitlePrimary>
-      <a href="#hero">VlaDyslav <br/>SvitlyCHnyi</a>
+      <TitleLink href="#hero">VlaDyslav <br/>SvitlyCHnyi</TitleLink>
     </TitlePrimary>
   );
 };

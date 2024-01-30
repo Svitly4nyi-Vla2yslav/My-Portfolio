@@ -1,17 +1,17 @@
 
-import { Title } from "../Title/Title";
+// import { Title } from "../Title/Title";
 
 import { FooterSection, FooterContainer } from "./Footer.styled";
-import { SocialsList } from "../SocialsList/SocialsList";
+// import { SocialsList } from "../SocialsList/SocialsList";
 import Resume from "../Resume/Resume";
 
 export const Footer = () => {
   return (
     <FooterSection>
       <FooterContainer>
-        <Title />
+        {/* <Title /> */}
         <Resume/>
-        <SocialsList />
+        {/* <SocialsList /> */}
       </FooterContainer>
     </FooterSection>
   );

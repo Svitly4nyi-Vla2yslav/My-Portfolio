@@ -1,17 +1,17 @@
-const options = {
+const options ={
   particles: {
     number: {
-      value: 96,
+      value: 400,
       density: {
-        enable: false,
-        value_area: 801.7060304327614
+        enable: true,
+        value_area: 800
       }
     },
     color: {
-      value: "#02d95a"
+      value: "#615bc5"
     },
     shape: {
-      type: "star",
+      type: "circle",
       stroke: {
         width: 0,
         color: "#000000"
@@ -20,45 +20,45 @@ const options = {
         nb_sides: 5
       },
       image: {
-        src: "http://wiki.lexisnexis.com/academic/images/f/fb/Itunes_podcast_icon_300.jpg",
+        src: "img/github.svg",
         width: 100,
         height: 100
       }
     },
     opacity: {
-      value: 0.10422178395625899,
+      value: 0.5,
       random: true,
       anim: {
-        enable: true,
-        speed: 1.136908097221883,
-        opacity_min: 0.08932849335314796,
-        sync: true
+        enable: false,
+        speed: 1,
+        opacity_min: 0.1,
+        sync: false
       }
     },
     size: {
-      value: 4.008530152163807,
+      value: 10,
       random: true,
       anim: {
-        enable: true,
-        speed: 31.67101127975246,
-        size_min: 5.684540486109416,
-        sync: true
+        enable: false,
+        speed: 40,
+        size_min: 0.1,
+        sync: false
       }
     },
     line_linked: {
-      enable: true,
-      distance: 176.3753266952075,
+      enable: false,
+      distance: 500,
       color: "#ffffff",
       opacity: 0.4,
-      width: 1
+      width: 2
     },
     move: {
       enable: true,
-      speed: 3.206824121731046,
+      speed: 2,
       direction: "bottom",
       random: false,
-      straight: true,
-      out_mode: "bounce",
+      straight: false,
+      out_mode: "out",
       bounce: false,
       attract: {
         enable: false,
@@ -68,11 +68,11 @@ const options = {
     }
   },
   interactivity: {
-    detect_on: "window",
+    detect_on: "canvas",
     events: {
       onhover: {
         enable: true,
-        mode: "grab"
+        mode: "bubble"
       },
       onclick: {
         enable: true,
@@ -82,16 +82,16 @@ const options = {
     },
     modes: {
       grab: {
-        distance: 200,
+        distance: 400,
         line_linked: {
-          opacity: 1
+          opacity: 0.5
         }
       },
       bubble: {
         distance: 400,
-        size: 40,
-        duration: 2,
-        opacity: 8,
+        size: 4,
+        duration: 0.3,
+        opacity: 1,
         speed: 3
       },
       repulse: {
