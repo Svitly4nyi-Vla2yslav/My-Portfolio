@@ -11,6 +11,8 @@ const Resume = () => {
             <Link
                 href='https://drive.google.com/file/d/16D179v6Hvdi0UrjCJghhLy6Tkdw_OBVR/view?usp=sharing'>
                 Lebenslauf </Link>
+            <Link href="https://drive.google.com/file/d/1GO_wwl3V_aJU3Any7DoCKl1za5B6QUtC/view?usp=sharing">
+                Certificate </Link>
         </Container>
     )
 }
