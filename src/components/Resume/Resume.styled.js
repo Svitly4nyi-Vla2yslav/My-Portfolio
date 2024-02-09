@@ -2,6 +2,13 @@ import styled from "styled-components";
 
 const Container = styled.div`
 display: flex;
+
+@media screen and (max-width: 767px){
+  display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
 `;
 const Link = styled.a`
 text-decoration: none;
@@ -14,6 +21,7 @@ border: 1px solid;
 border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
 border-image-slice: 1;
 margin: 10px 20px;
+text-align: center;
 font-family: 'Montserrat', sans-serif;
 text-transform: uppercase;
 overflow: hidden;

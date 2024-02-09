@@ -1,4 +1,4 @@
-import  { useId } from "react";
+// import  { useId } from "react";
 import { ProjectCard } from "../ProjectCard/ProjectCard";
 
 import {
@@ -10,15 +10,15 @@ import { SectionTitle } from "../SectionTitle/SectionTitle";
 import { projects } from "./projectsData";
 
 export const Projects = () => {
-  const id = useId();
+  // const id = useId();
 
   return (
     <ProjectsSection id="projects">
       <ProjectsContainer>
         <SectionTitle>Projects</SectionTitle>
         <ProjectsList>
-          {projects.map(project => (
-            <ProjectCard key={id} {...project} />
+          {projects.map((project, index) => (
+            <ProjectCard key={index} {...project} />
           ))}
         </ProjectsList>
       </ProjectsContainer>

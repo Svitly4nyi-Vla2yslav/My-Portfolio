@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useId } from "react";
+// import { useId } from "react";
 import {
   Card,
   ItemPeriod,
@@ -17,7 +17,7 @@ export const ExperienceItem = ({
   text,
   responsibilities,
 }) => {
-  const id = useId();
+  // const id = useId();
 
   return (
     <Card>
@@ -26,8 +26,8 @@ export const ExperienceItem = ({
       <ItemName>{name}</ItemName>
       <ItemText>{text}</ItemText>
       <Responsibilities>
-        {responsibilities.map(item => (
-          <ResponsibilitiesItem key={id}> - {item}</ResponsibilitiesItem>
+        {responsibilities.map((item, index) => (
+          <ResponsibilitiesItem key={index}> - {item}</ResponsibilitiesItem>
         ))}
       </Responsibilities>
     </Card>

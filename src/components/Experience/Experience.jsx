@@ -1,4 +1,4 @@
-import { useId } from "react";
+// import { useId } from "react";
 import {
   ExperienceSection,
   ExperienceContainer,
@@ -10,15 +10,15 @@ import { ExperienceItem } from "../ExperienceItem/ExperienceItem";
 import { experienceData } from "./experienceData";
 
 export const Experience = () => {
-  const id = useId();
+  // const id = useId();
 
   return (
     <ExperienceSection id="experience">
       <ExperienceContainer>
         <SectionTitle>Experience</SectionTitle>
         <ExperienceList>
-          {experienceData.map(item => (
-            <ExperienceItem key={id} {...item} />
+          {experienceData.map((item, index) => (
+            <ExperienceItem key={index} {...item} />
           ))}
         </ExperienceList>
       </ExperienceContainer>
