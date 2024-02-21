@@ -1,4 +1,4 @@
-# Portfolio
+# My Portfolio
 
 This repository contains a portfolio website showcasing my skills, projects, and achievements in the field of programming and web development.
 
@@ -60,5 +60,3 @@ To run this application locally, follow these steps:
 ### Contact
 
 I am always open to new opportunities and collaborations. Feel free to reach out to me via <a href="mailto:svetli4nuyvla2islav@gmail.com">Email </a> or through my [social media](https://www.linkedin.com/in/vladyslav-svitlychnyi/) profiles.
-
-
