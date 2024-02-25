@@ -12,7 +12,7 @@ export const projects = [
       "Emotion Styled",
       "Ant Design",
     ],
-    projectLink: "https://robertw8.github.io/powerpulse/welcome",
+    projectLink: "https://powerpulse-fitness.netlify.app/welcome",
     codeLink: "https://github.com/Robertw8/powerpulse",
   },
     {
