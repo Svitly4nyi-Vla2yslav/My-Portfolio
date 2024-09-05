@@ -55,15 +55,29 @@ const ItemText = styled.p`
 `;
 
 const Responsibilities = styled.ul`
-  margin-top: 10px;
-  color: #d9d9d9;
+ display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
 `;
 
 const ResponsibilitiesItem = styled.li`
-  &:not(:first-of-type) {
-    margin-top: 10px;
+  border: 1px solid #4ee1a044;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 18px;
+  line-height: calc(28 / 18);
+  color: #d9d9d9;
+
+  border-radius: 10px;
+  transition-duration: 150ms;
+
+  &:hover {
+    background-color: #4ee1a044;
   }
-  font-size: 14px;
 `;
 
 export {

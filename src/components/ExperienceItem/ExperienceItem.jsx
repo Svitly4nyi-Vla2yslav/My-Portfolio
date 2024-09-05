@@ -27,7 +27,7 @@ export const ExperienceItem = ({
       <ItemText>{text}</ItemText>
       <Responsibilities>
         {responsibilities.map((item, index) => (
-          <ResponsibilitiesItem key={index}> - {item}</ResponsibilitiesItem>
+          <ResponsibilitiesItem key={index}> {item}</ResponsibilitiesItem>
         ))}
       </Responsibilities>
     </Card>
