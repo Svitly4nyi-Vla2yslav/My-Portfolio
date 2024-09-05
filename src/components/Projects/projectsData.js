@@ -1,19 +1,19 @@
 export const projects = [
   {
-    title: "Power Pulse 2.0",
-    type: "Team project (Developer).",
+    title: "Angel Systems | Innovation Conveyor",
+    type: "Single project (Full Stack Developer)",
     description:
-      "An application for personalized diet adjustment based on the user's physical characteristics and lifestyle. A huge selection of food and exercises, all the functionality you need to track your diet every day. My tasks:  filters, in catalog, on-scroll animations.",
+      "Independent development of features of various scales and complexity, including full implementation, design, and integration with backend systems. Improved responsive layouts and resolved bugs across the application. Worked with React, MUI, React Spring, Three.js, Axios, and i18next for the frontend, alongside tools like ESLint, Prettier, and Husky for code quality. Achievement: Fully developed and implemented a multilingual support system, real-time posture monitoring feature, and an admin panel for managing user data autonomously",
     technologies: [
-      "TypeScript",
       "React",
-      "Redux",
       "Vite",
-      "Emotion Styled",
-      "Ant Design",
+      "React Spring",
+      "i18next",
+      "TypeScript",
+      "Styled-Component",
     ],
-    projectLink: "https://powerpulse-fitness.netlify.app/welcome",
-    codeLink: "https://github.com/Robertw8/powerpulse",
+    projectLink: "https://www.angelsystems.ch",
+    codeLink: "https://github.com/Svitly4nyi-Vla2yslav/healthy-sitting",
   },
     {
       title: "Tasty Treats",
