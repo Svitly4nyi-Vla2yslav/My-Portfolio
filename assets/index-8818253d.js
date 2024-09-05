@@ -1019,11 +1019,25 @@ transition: .8s cubic-bezier(.165, .84, .44, 1);
   margin-top: 20px;
   color: #d9d9d9;
 `,NE=B.ul`
-  margin-top: 10px;
-  color: #d9d9d9;
+ display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px 0;
 `,UE=B.li`
-  &:not(:first-of-type) {
-    margin-top: 10px;
+  border: 1px solid #4ee1a044;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 18px;
+  line-height: calc(28 / 18);
+  color: #d9d9d9;
+
+  border-radius: 10px;
+  transition-duration: 150ms;
+
+  &:hover {
+    background-color: #4ee1a044;
   }
-  font-size: 14px;
-`,HE=({period:t,title:e,name:n,text:i,responsibilities:r})=>E.jsxs(LE,{children:[E.jsx($E,{children:t}),E.jsx(FE,{children:e}),E.jsx(jE,{children:n}),E.jsx(BE,{children:i}),E.jsx(NE,{children:r.map((o,s)=>E.jsxs(UE,{children:[" - ",o]},s))})]}),WE=[{period:"",title:"My experience will be here 🙂 ",name:"",text:"",responsibilities:["","",""]},{period:"",title:"My experience will be here 🙂",name:"",text:"",responsibilities:["","",""]}],qE=()=>E.jsx(RE,{id:"experience",children:E.jsxs(AE,{children:[E.jsx(Ic,{children:"Experience"}),E.jsx(DE,{children:WE.map((t,e)=>E.jsx(HE,{...t},e))})]})}),VE=()=>E.jsxs(E.Fragment,{children:[E.jsx(ax,{}),E.jsx(IE,{}),E.jsx(wx,{}),E.jsxs("main",{children:[E.jsx(Ex,{}),E.jsx(jx,{}),E.jsx(Kx,{}),E.jsx(qE,{}),E.jsx(gk,{})]}),E.jsx(xk,{})]});kl.createRoot(document.getElementById("root")).render(E.jsx(VE,{}));
+`,HE=({period:t,title:e,name:n,text:i,responsibilities:r})=>E.jsxs(LE,{children:[E.jsx($E,{children:t}),E.jsx(FE,{children:e}),E.jsx(jE,{children:n}),E.jsx(BE,{children:i}),E.jsx(NE,{children:r.map((o,s)=>E.jsxs(UE,{children:[" ",o]},s))})]}),WE=[{period:"June 2024 - Present",title:"Frontend developer | Design UX/UI | DevOps | SEO | Translator",name:"Angel Systems | Innovation Conveyor",text:"Independent development of features of various scales and complexity, including full implementation, design, and integration with backend systems. Improved responsive layouts and resolved bugs across the application. Worked with React, MUI, React Spring, Three.js, Axios, and i18next for the frontend, alongside tools like ESLint, Prettier, and Husky for code quality. Achievement: Fully developed and implemented a multilingual support system, real-time posture monitoring feature, and an admin panel for managing user data autonomously.",responsibilities:["React","Vite","React Spring","i18next","TypeScript","Styled-Component"]},{period:"",title:"My experience will be here 🙂",name:"",text:"",responsibilities:["","",""]}],qE=()=>E.jsx(RE,{id:"experience",children:E.jsxs(AE,{children:[E.jsx(Ic,{children:"Experience"}),E.jsx(DE,{children:WE.map((t,e)=>E.jsx(HE,{...t},e))})]})}),VE=()=>E.jsxs(E.Fragment,{children:[E.jsx(ax,{}),E.jsx(IE,{}),E.jsx(wx,{}),E.jsxs("main",{children:[E.jsx(Ex,{}),E.jsx(jx,{}),E.jsx(Kx,{}),E.jsx(qE,{}),E.jsx(gk,{})]}),E.jsx(xk,{})]});kl.createRoot(document.getElementById("root")).render(E.jsx(VE,{}));
