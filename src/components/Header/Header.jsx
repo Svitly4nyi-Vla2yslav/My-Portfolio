@@ -4,6 +4,9 @@ import { SocialsList } from "../SocialsList/SocialsList";
 import { Title } from "../Title/Title";
 // import sprite from "../../assets/images/sprite.svg";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import { HeaderSection, Container, Column } from "./Header.styled";
 
 export const Header = () => {
@@ -23,6 +26,10 @@ export const Header = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   });
+
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  }, []);
 
   return (
     <Container>

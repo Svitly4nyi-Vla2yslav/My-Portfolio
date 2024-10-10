@@ -20,7 +20,7 @@ export const Hero = () => {
   useEffect(() => {
     const typed = new Typed(span.current, {
       strings: ["I'm Vlad."],
-      typeSpeed: 60,
+      typeSpeed: 90,
     });
   });
 

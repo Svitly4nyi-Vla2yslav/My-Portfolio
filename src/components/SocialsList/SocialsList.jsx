@@ -4,7 +4,7 @@ import sprite from "../../assets/images/sprite.svg";
 export const SocialsList = () => {
   return (
     <SocialsUl>
-      <li>
+      <li  data-aos="fade-down">
         <SocialsLink
           href="https://github.com/Svitly4nyi-Vla2yslav"
           target="_blank"
@@ -16,7 +16,7 @@ export const SocialsList = () => {
           </SocialsIcon>
         </SocialsLink>
       </li>
-      <li>
+      <li  data-aos="fade-down">
         <SocialsLink
           href="https://www.linkedin.com/in/vladyslav-svitlychnyi/"
           target="_blank"

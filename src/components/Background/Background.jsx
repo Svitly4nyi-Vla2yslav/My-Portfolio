@@ -4,12 +4,14 @@ import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import { options } from "./Background.options";
 
+
 export const Background = () => {
   const particlesInit = useCallback(async engine => {
     await loadFull(engine);
   }, []);
 
-  const particlesLoaded = useCallback(async container => {}, []);
+  const particlesLoaded = useCallback(async container => { }, []);
+
 
   return (
     <Particles

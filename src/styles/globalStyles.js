@@ -11,6 +11,7 @@ const GlobalStyles = createGlobalStyle`
   *::before,
   *::after {
   box-sizing: border-box;
+  scrollbar-width: none;
   }
 
   p, h1, h2, h3, h4, h5, h6, ul, li, body, button, a {

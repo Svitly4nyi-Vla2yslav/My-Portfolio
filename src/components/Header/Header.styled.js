@@ -18,6 +18,9 @@ const HeaderSection = styled.header`
   background-color: ${({ $isScrolled }) =>
     $isScrolled ? "transparent" : "transparent"};
 
+ backdrop-filter: blur(8px);
+  border-radius: 10px;
+
   @media screen and (max-width: 767px)  {
     display: flex;
     position: static;

@@ -5,6 +5,7 @@ const SkillsSection = styled.section`
   padding-top: 0;
   padding-bottom: 40px;
   margin-top: 145px;
+  transform: translateZ(0);
 
   @media screen and (min-width: 768px) {
     padding-top: 30px;
@@ -22,6 +23,9 @@ const SkillsContainer = styled.div`
   max-width: 375px;
   margin: 0 auto;
   padding: 0 16px;
+
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
 
   @media screen and (min-width: 768px) {
     max-width: 700px;

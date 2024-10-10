@@ -6,6 +6,8 @@ const HeroSection = styled.section`
   padding-top: 40px;
   padding-bottom: 0;
 
+  
+
   @media screen and (min-width: 768px) {
     height: 560px;
     padding-top: 30px;
@@ -22,6 +24,9 @@ const Container = styled.div`
   max-width: 375px;
   margin: 0 auto;
   padding: 0 16px;
+
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
 
   @media screen and (min-width: 768px) {
     max-width: 700px;

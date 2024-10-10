@@ -12,6 +12,8 @@ const ItemInner = styled.div`
   transition-duration: 300ms;
   padding: 10px;
 
+  
+
   &:hover {
     box-shadow: 0 0 4px 2px #56bb40;
   }
@@ -33,6 +35,8 @@ const IconContainer = styled.a`
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+
+  
 `;
 
 const Icon = styled.svg`
