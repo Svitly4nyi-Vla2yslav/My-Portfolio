@@ -23,6 +23,10 @@ const SocialsUl = styled.ul`
     gap: 0px;
     margin-left: 0;
   }
+
+  @media screen and (min-width: 1124px) and (max-width: 1323px) {
+  
+  }
 `;
 
 const SocialsLink = styled.a`
