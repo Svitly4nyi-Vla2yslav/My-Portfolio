@@ -182,6 +182,10 @@ margin-right: 0;
     gap: 0px;
     margin-left: 0;
   }
+
+  @media screen and (min-width: 1124px) and (max-width: 1323px) {
+  
+  }
 `,Ff=A.a`
   padding: 5px;
   display: flex;
@@ -237,7 +241,7 @@ transition-duration: 300ms;
   transition-duration: 150ms;
   background-color: ${({$isScrolled:t})=>"transparent"};
 
- backdrop-filter: blur(8px);
+//  backdrop-filter: blur(8px);
   border-radius: 10px;
 
   @media screen and (max-width: 767px)  {
