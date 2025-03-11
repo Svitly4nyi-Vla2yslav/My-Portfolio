@@ -4,7 +4,7 @@ const Resume = () => {
     return (
         <Container>
             <Link
-                href="https://drive.google.com/file/d/17g1jCN4jM9YsgwWspc1apEfJ53_w6bOs/view?usp=sharing"
+                href="https://drive.google.com/file/d/1D69U9qWZQzXH7Pu58QtCvbdFzv6qZgnV/view?usp=sharing"
             >
                 Download CV
             </Link>
