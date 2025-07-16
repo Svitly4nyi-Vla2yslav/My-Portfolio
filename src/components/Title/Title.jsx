@@ -7,7 +7,7 @@ export const Title = () => {
     <TitlePrimary data-aos="fade-down"
       data-aos-easing="linear">
       <TitleLink href="#hero">VlaDyslav <br />SvitlyCHnyi <br /> <LanguageSwitcher /></TitleLink>
-      
+
     </TitlePrimary>
   );
 };

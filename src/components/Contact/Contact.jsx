@@ -1,7 +1,5 @@
-
 import { ContactForm } from "../ContactForm/ContactForm";
-// import { Rings } from "../Rings/Rings";
-
+import { useTranslation } from 'react-i18next';
 import {
   ContactSection,
   Container,
@@ -10,19 +8,18 @@ import {
 } from "./Contact.styled";
 
 export const Contact = () => {
+  const { t } = useTranslation();
+
   return (
     <ContactSection id="contact">
       <Container>
         <div>
-          <Title>Contact</Title>
+          <Title>{t('contact.title')}</Title>
           <ContactText>
-            I would love to see any your project and how I could help or any
-            other suggestions. Please fill in the form, and I’ll get back to you
-            as soon as possible.
+            {t('contact.description')}
           </ContactText>
         </div>
         <ContactForm />
-        {/* <Rings top="200px" right="" bottom="" left="-300px" /> */}
       </Container>
     </ContactSection>
   );

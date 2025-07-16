@@ -18,7 +18,7 @@ const Wrapper = styled.div`
 const Button = styled.button`
   border-radius: 12px;
   padding: 8px 18px;
-  width: 100px;
+  width: max-content;
   height: 36px;
   font-family: var(--font-family);
   font-weight: 400;
@@ -114,7 +114,6 @@ const LanguageSwitcher = () => {
       <Button onClick={toggleMenu} aria-label="Change language">
         <FlagIcon>🌎</FlagIcon>
         {selectedLang.label}
-        <span>⌄</span>
       </Button>
 
       <AnimatePresence>

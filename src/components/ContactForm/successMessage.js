@@ -1,10 +1,10 @@
 import Swal from "sweetalert2";
 
-const successMessage = () => {
+const successMessage = (title, text) => {
   Swal.fire({
     icon: "success",
-    title: "Thank you!",
-    text: "I will reply to your message as soon as I can",
+    title: title,
+    text: text,
     background: "#242424",
     color: "#FFFFFF",
     confirmButtonColor: "#4EE1A0",

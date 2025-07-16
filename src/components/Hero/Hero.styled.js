@@ -2,19 +2,19 @@ import styled from "styled-components";
 
 const HeroSection = styled.section`
   position: relative;
-  height: 400px;
+  height: max-content;
   padding-top: 40px;
   padding-bottom: 0;
 
   
 
   @media screen and (min-width: 768px) {
-    height: 560px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
 
   @media screen and (min-width: 980px) {
+   height: max-content;
     padding-top: 50px;
     padding-bottom: 50px;
   }
