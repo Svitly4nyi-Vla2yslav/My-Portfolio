@@ -1,0 +1,143 @@
+{
+  "contact": {
+    "title": "Kontakt",
+    "description": "Ich würde gerne Ihr Projekt sehen und wie ich helfen könnte oder andere Vorschläge machen. Bitte füllen Sie das Formular aus und ich melde mich so schnell wie möglich bei Ihnen."
+  },
+  "contactForm": {
+    "emailPlaceholder": "E-Mail",
+    "messagePlaceholder": "Nachricht",
+    "submitButton": "Nachricht senden",
+    "successTitle": "Vielen Dank!",
+    "successText": "Ich werde so schnell wie möglich auf Ihre Nachricht antworten"
+  },
+   "experience": {
+    "title": "Berufserfahrung",
+    "currentJob": {
+      "period": "Juni 2024 - Heute",
+      "title": "Frontend-Entwickler | UX/UI Design | DevOps | SEO | Übersetzer",
+      "company": "Angel Systems | Innovation Conveyor",
+      "description": "Eigenständige Entwicklung von Funktionen verschiedener Größenordnungen und Komplexität, einschließlich vollständiger Implementierung, Design und Integration mit Backend-Systemen. Verbesserung responsiver Layouts und Behebung von Fehlern in der gesamten Anwendung. Arbeit mit React, MUI, React Spring, Three.js, Axios und i18next für das Frontend sowie Tools wie ESLint, Prettier und Husky für Codequalität. Erfolg: Vollständige Entwicklung und Implementierung eines mehrsprachigen Supports, einer Echtzeit-Haltungserkennung und eines Admin-Panels zur autonomen Verwaltung von Benutzerdaten.",
+      "technologies": [
+        "React",
+        "Vite",
+        "React Spring",
+        "i18next",
+        "TypeScript",
+        "Styled-Component"
+      ]
+    },
+    "emptyJob": {
+      "title": "Meine Erfahrungen werden hier erscheinen 🙂",
+      "description": "",
+      "technologies": ["", "", ""]
+    }
+  },
+    "hero": {
+    "title": "Hallo zusammen!",
+    "name": "Ich bin Vlad.",
+    "intro": "Ich bin ein Anfänger und ambitionierter Entwickler mit einem tiefen Verständnis für moderne Technologien. Meine intensive praktische Erfahrung und exzellenten Kenntnisse ermöglichen es mir, Aufgaben kreativ und effektiv anzugehen. Ich bin bereit, meine Fähigkeiten und Energie einzusetzen, um Ihre Ziele zu erreichen. Meine Neigung zum aktiven Lernen und schnellen Anpassung ermöglicht es mir, einen bedeutenden Beitrag zu jedem Projekt zu leisten.",
+    "contactButton": "Kontaktieren Sie mich"
+  },
+    "navbar": {
+    "projects": "Projekte",
+    "skills": "Fähigkeiten",
+    "experience": "Erfahrung",
+    "contact": "Kontakt"
+  },
+    "projectCard": {
+    "viewProject": "Projekt ansehen",
+    "viewCode": "Code ansehen"
+  },
+   "projects": {
+    "title": "Projekte",
+    "projectsData": [
+      {
+        "title": "SETO LOGISTIC | Transportlösungen auf Abruf",
+        "type": "Einzelprojekt (Full Stack Developer)",
+        "description": "Entwicklung einer Logistik-Webanwendung, die Nutzern Werkzeuge zur Berechnung von Transportrouten, Fahrzeugauswahl und Auftragsverwaltung bietet. Implementierung von Schlüsselfunktionen wie dynamische Preisgestaltung basierend auf Entfernung und Fahrzeugtyp, mehrsprachige Unterstützung und Zahlungsintegration. Verbesserung der Benutzererfahrung durch responsives Design, interaktive Elemente und Barrierefreiheitsoptimierungen. Das Projekt nutzte React für das Frontend und integrierte Netlify Functions für Backend-Operationen. Erfolg: Erfolgreicher Aufbau eines skalierbaren, mehrsprachigen Bestellsystems mit sicherer Zahlungsfunktion und Echtzeit-Auftragsverfolgung."
+      },
+      {
+        "title": "Prix de l'or | Zuverlässige Informationen zur Edelmetallbewertung",
+        "type": "Einzelprojekt (Full Stack Developer)",
+        "description": "Entwicklung einer Webplattform, die Nutzern umfassende Informationen über Gold und andere Edelmetalle bietet. Die Seite enthält Funktionen wie detaillierte Beschreibungen von Goldtypen (Karat, Münzen etc.), Partnerorganisationen, die Metallbewertungsdienste anbieten, und mehrsprachige Unterstützung für ein diverses Publikum. Das Projekt konzentrierte sich auf ein responsives und benutzerfreundliches Design, integriert mit Netlify Functions für nahtloses Datenmanagement. Erfolg: Erfolgreiche Erstellung einer informativen und visuell ansprechenden Plattform für den französischen Markt, die Zugänglichkeit und Benutzerfreundlichkeit gewährleistet."
+      },
+      {
+        "title": "Angel Systems | Innovation Conveyor",
+        "type": "Einzelprojekt (Full Stack Developer)",
+        "description": "Eigenständige Entwicklung von Funktionen verschiedener Größenordnungen und Komplexität, einschließlich vollständiger Implementierung, Design und Integration mit Backend-Systemen. Verbesserung responsiver Layouts und Behebung von Fehlern in der gesamten Anwendung. Arbeit mit React, MUI, React Spring, Three.js, Axios und i18next für das Frontend sowie Tools wie ESLint, Prettier und Husky für Codequalität. Erfolg: Vollständige Entwicklung und Implementierung eines mehrsprachigen Supports, einer Echtzeit-Haltungserkennung und eines Admin-Panels zur autonomen Verwaltung von Benutzerdaten."
+      },
+      {
+        "title": "Tasty Treats",
+        "type": "Teamprojekt (Entwickler)",
+        "description": "Seite mit Rezeptsuche mit Themenumschaltung, verschiedenen Suchfiltern, Paginierung, Modal-Fenstern, dynamischem Content-Rendering, Animationen und Logik zum Hinzufügen von Rezepten zu Favoriten. Meine Aufgaben: Suchfilter im Katalog, On-Scroll-Animationen."
+      },
+      {
+        "title": "ContactHub",
+        "type": "Schulungsprojekt",
+        "description": "Eine Kontaktspeicher-App mit Autorisierung, asynchronem Redux und einer schönen Oberfläche mit Ant-Design."
+      },
+      {
+        "title": "The Watch Spot",
+        "type": "Teamprojekt",
+        "description": "Eine Landingpage mit umfangreichen Funktionen, darunter Themenwechsel, Uhrenauswahl aus dem Katalog, Slider, mobiles Menü, Modal-Fenster, Scroll-Up-Button und natürlich schönen Animationen. Meine Aufgaben: Modal-Fenster, mobiles Menü."
+      },
+      {
+        "title": "Filmic explorer",
+        "type": "Schulungsprojekt",
+        "description": "Eine kleine App über Filme zur Verbesserung des Routings."
+      }
+    ]
+  },
+    "resume": {
+    "downloadCV": "Lebenslauf herunterladen",
+    "lebenslauf": "Deutscher Lebenslauf",
+    "certificate": "Zertifikat"
+  },
+   "skills": {
+    "title": "Technologien",
+    "skillsData": [
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "TypeScript"
+      },
+      {
+        "name": "React"
+      },
+      {
+        "name": "Redux"
+      },
+      {
+        "name": "Docker"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      },
+      {
+        "name": "Sass"
+      },
+      {
+        "name": "Vite"
+      },
+      {
+        "name": "Webpack"
+      },
+      {
+        "name": "Git"
+      },
+      {
+        "name": "Postman"
+      },
+      {
+        "name": "Node.js"
+      },
+      {
+        "name": "MongoDB"
+      }
+    ]
+  }
+}
