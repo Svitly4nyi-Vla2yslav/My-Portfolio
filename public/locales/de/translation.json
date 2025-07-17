@@ -48,45 +48,57 @@
     "viewProject": "Projekt ansehen",
     "viewCode": "Code ansehen"
   },
-   "projects": {
+  "projects": {
     "title": "Projekte",
-    "projectsData": [
-      {
-        "title": "SETO LOGISTIC | Transportlösungen auf Abruf",
-        "type": "Einzelprojekt (Full Stack Developer)",
-        "description": "Entwicklung einer Logistik-Webanwendung, die Nutzern Werkzeuge zur Berechnung von Transportrouten, Fahrzeugauswahl und Auftragsverwaltung bietet. Implementierung von Schlüsselfunktionen wie dynamische Preisgestaltung basierend auf Entfernung und Fahrzeugtyp, mehrsprachige Unterstützung und Zahlungsintegration. Verbesserung der Benutzererfahrung durch responsives Design, interaktive Elemente und Barrierefreiheitsoptimierungen. Das Projekt nutzte React für das Frontend und integrierte Netlify Functions für Backend-Operationen. Erfolg: Erfolgreicher Aufbau eines skalierbaren, mehrsprachigen Bestellsystems mit sicherer Zahlungsfunktion und Echtzeit-Auftragsverfolgung."
-      },
-      {
-        "title": "Prix de l'or | Zuverlässige Informationen zur Edelmetallbewertung",
-        "type": "Einzelprojekt (Full Stack Developer)",
-        "description": "Entwicklung einer Webplattform, die Nutzern umfassende Informationen über Gold und andere Edelmetalle bietet. Die Seite enthält Funktionen wie detaillierte Beschreibungen von Goldtypen (Karat, Münzen etc.), Partnerorganisationen, die Metallbewertungsdienste anbieten, und mehrsprachige Unterstützung für ein diverses Publikum. Das Projekt konzentrierte sich auf ein responsives und benutzerfreundliches Design, integriert mit Netlify Functions für nahtloses Datenmanagement. Erfolg: Erfolgreiche Erstellung einer informativen und visuell ansprechenden Plattform für den französischen Markt, die Zugänglichkeit und Benutzerfreundlichkeit gewährleistet."
-      },
-      {
-        "title": "Angel Systems | Innovation Conveyor",
-        "type": "Einzelprojekt (Full Stack Developer)",
-        "description": "Eigenständige Entwicklung von Funktionen verschiedener Größenordnungen und Komplexität, einschließlich vollständiger Implementierung, Design und Integration mit Backend-Systemen. Verbesserung responsiver Layouts und Behebung von Fehlern in der gesamten Anwendung. Arbeit mit React, MUI, React Spring, Three.js, Axios und i18next für das Frontend sowie Tools wie ESLint, Prettier und Husky für Codequalität. Erfolg: Vollständige Entwicklung und Implementierung eines mehrsprachigen Supports, einer Echtzeit-Haltungserkennung und eines Admin-Panels zur autonomen Verwaltung von Benutzerdaten."
-      },
-      {
-        "title": "Tasty Treats",
-        "type": "Teamprojekt (Entwickler)",
-        "description": "Seite mit Rezeptsuche mit Themenumschaltung, verschiedenen Suchfiltern, Paginierung, Modal-Fenstern, dynamischem Content-Rendering, Animationen und Logik zum Hinzufügen von Rezepten zu Favoriten. Meine Aufgaben: Suchfilter im Katalog, On-Scroll-Animationen."
-      },
-      {
-        "title": "ContactHub",
-        "type": "Schulungsprojekt",
-        "description": "Eine Kontaktspeicher-App mit Autorisierung, asynchronem Redux und einer schönen Oberfläche mit Ant-Design."
-      },
-      {
-        "title": "The Watch Spot",
-        "type": "Teamprojekt",
-        "description": "Eine Landingpage mit umfangreichen Funktionen, darunter Themenwechsel, Uhrenauswahl aus dem Katalog, Slider, mobiles Menü, Modal-Fenster, Scroll-Up-Button und natürlich schönen Animationen. Meine Aufgaben: Modal-Fenster, mobiles Menü."
-      },
-      {
-        "title": "Filmic explorer",
-        "type": "Schulungsprojekt",
-        "description": "Eine kleine App über Filme zur Verbesserung des Routings."
-      }
-    ]
+    "setoLogistic": {
+      "title": "SETO LOGISTIC | On-Demand Transportlösungen",
+      "type": "Einzelprojekt (Full Stack Developer)",
+      "description": "Entwicklung einer Logistik-Webanwendung mit Tools zur Berechnung von Transportrouten, Fahrzeugauswahl und Auftragsverwaltung. Implementierung von Funktionen wie dynamische Preisgestaltung basierend auf Entfernung und Fahrzeugtyp, mehrsprachige Unterstützung und Zahlungsintegration. Verbesserung der Benutzererfahrung durch responsives Design, interaktive Elemente und Barrierefreiheit. Das Projekt nutzte React für das Frontend und Netlify Functions für Backend-Operationen. Erfolg: Aufbau eines skalierbaren, mehrsprachigen Bestellsystems mit sicherer Zahlungsfunktion und Echtzeit-Auftragsverfolgung.",
+      "viewProject": "Projekt ansehen",
+      "viewCode": "Code ansehen"
+    },
+    "prixDeLor": {
+      "title": "Prix de l'or | Zuverlässige Informationen zur Edelmetallbewertung",
+      "type": "Einzelprojekt (Full Stack Developer)",
+      "description": "Entwicklung einer Webplattform mit umfassenden Informationen zu Gold und anderen Edelmetallen. Die Seite enthält detaillierte Beschreibungen von Goldtypen (Karat, Münzen etc.), Partnerorganisationen für Metallbewertungen und mehrsprachige Unterstützung. Der Fokus lag auf einem responsiven und benutzerfreundlichen Design mit Netlify Functions für Datenmanagement. Erfolg: Erstellung einer informativen und visuell ansprechenden Plattform für den französischen Markt.",
+      "viewProject": "Projekt ansehen",
+      "viewCode": "Code ansehen"
+    },
+    "angelSystems": {
+      "title": "Angel Systems | Innovation Conveyor",
+      "type": "Einzelprojekt (Full Stack Developer)",
+      "description": "Eigenständige Entwicklung von Funktionen verschiedener Komplexität, einschließlich Implementierung, Design und Backend-Integration. Verbesserung responsiver Layouts und Fehlerbehebung. Verwendete Technologien: React, MUI, React Spring, Three.js, Axios und i18next für das Frontend, sowie ESLint, Prettier und Husky für Codequalität. Erfolg: Implementierung eines mehrsprachigen Systems, Echtzeit-Haltungserkennung und Admin-Panel zur Benutzerdatenverwaltung.",
+      "viewProject": "Projekt ansehen",
+      "viewCode": "Code ansehen"
+    },
+    "tastyTreats": {
+      "title": "Tasty Treats",
+      "type": "Teamprojekt (Developer)",
+      "description": "Rezeptsuchseite mit Designwechsel, Suchfiltern, Paginierung, Modalfenstern, dynamischem Content-Rendering und Favoritenfunktion. Meine Aufgaben: Suchfilter im Katalog, On-Scroll-Animationen.",
+      "viewProject": "Projekt ansehen",
+      "viewCode": "Code ansehen"
+    },
+    "contactHub": {
+      "title": "ContactHub",
+      "type": "Übungsprojekt",
+      "description": "Kontaktspeicher-App mit Authentifizierung, asynchronem Redux und Ant-design-Oberfläche.",
+      "viewProject": "Projekt ansehen",
+      "viewCode": "Code ansehen"
+    },
+    "watchSpot": {
+      "title": "The Watch Spot",
+      "type": "Teamprojekt",
+      "description": "Landingpage mit Designwechsel, Uhrenkatalog, Slider, Mobile-Menü, Modalfenstern und Animationen. Meine Aufgaben: Modalfenster, Mobile-Menü.",
+      "viewProject": "Projekt ansehen",
+      "viewCode": "Code ansehen"
+    },
+    "filmicExplorer": {
+      "title": "Filmic explorer",
+      "type": "Übungsprojekt",
+      "description": "Kleine Film-App zur Verbesserung des Routings.",
+      "viewProject": "Projekt ansehen",
+      "viewCode": "Code ansehen"
+    }
   },
     "resume": {
     "downloadCV": "Lebenslauf herunterladen",

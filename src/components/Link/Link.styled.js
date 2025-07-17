@@ -15,7 +15,7 @@ const PrimaryLink = styled.a`
   padding: 3px;
   transition-duration: 300ms;
   white-space: nowrap;
-
+width: max-content;
   &:is(:hover, :focus) {
     color: #56bb40;
     box-shadow: 0 0.5em 0.5em -0.4em #56bb40;

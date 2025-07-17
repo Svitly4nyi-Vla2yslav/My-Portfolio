@@ -1,7 +1,5 @@
 /* eslint-disable react/prop-types */
-import { useTranslation } from 'react-i18next';
 import { Link } from "../Link/Link";
-
 import {
   Card,
   ProjectTitle,
@@ -19,9 +17,9 @@ export const ProjectCard = ({
   technologies,
   projectLink,
   codeLink,
+  viewProjectText,
+  viewCodeText
 }) => {
-  const { t } = useTranslation();
-
   return (
     <Card>
       <ProjectTitle>{title}</ProjectTitle>
@@ -35,8 +33,8 @@ export const ProjectCard = ({
         ))}
       </TechnologiesList>
       <LinksWrapper>
-        <Link text={t('projectCard.viewProject')} href={projectLink} target="_blank" />
-        <Link text={t('projectCard.viewCode')} href={codeLink} target="_blank" />
+        <Link text={viewProjectText} href={projectLink} target="_blank" />
+        <Link text={viewCodeText} href={codeLink} target="_blank" />
       </LinksWrapper>
     </Card>
   );

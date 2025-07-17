@@ -75,9 +75,9 @@ const TechnologiesItem = styled.li`
 `;
 
 const LinksWrapper = styled.div`
-  margin-top: auto;
-  display: flex;
-  gap: 30px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
 `;
 
 export {

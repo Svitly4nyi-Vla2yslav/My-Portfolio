@@ -50,43 +50,55 @@
   },
     "projects": {
     "title": "Projects",
-    "projectsData": [
-      {
-        "title": "SETO LOGISTIC | On-Demand Transport Solutions",
-        "type": "Single project (Full Stack Developer)",
-        "description": "Developed a logistics web application providing users with tools to calculate transportation routes, select vehicles, and manage orders. Implemented key features such as dynamic pricing based on distance and vehicle type, multilingual support, and payment integration. Enhanced user experience with responsive design, interactive elements, and accessibility optimizations. The project utilized React for the frontend and integrated Netlify Functions for backend operations. Achievement: Successfully built a scalable, multilingual order system with secure payment functionality and real-time order tracking."
-      },
-      {
-        "title": "Prix de l'or | Reliable Information for Precious Metal Evaluation",
-        "type": "Single project (Full Stack Developer)",
-        "description": "Developed a web platform designed to provide users with comprehensive information about gold and other precious metals. The site includes features such as detailed descriptions of gold types (karats, coins, etc.), partner organizations offering metal evaluation services, and multilingual support to cater to a diverse audience. The project focused on delivering a responsive and user-friendly design, integrated with Netlify Functions for seamless data management. Achievement: Successfully created an informative and visually appealing platform tailored to the French market, ensuring accessibility and usability."
-      },
-      {
-        "title": "Angel Systems | Innovation Conveyor",
-        "type": "Single project (Full Stack Developer)",
-        "description": "Independent development of features of various scales and complexity, including full implementation, design, and integration with backend systems. Improved responsive layouts and resolved bugs across the application. Worked with React, MUI, React Spring, Three.js, Axios, and i18next for the frontend, alongside tools like ESLint, Prettier, and Husky for code quality. Achievement: Fully developed and implemented a multilingual support system, real-time posture monitoring feature, and an admin panel for managing user data autonomously."
-      },
-      {
-        "title": "Tasty Treats",
-        "type": "Team project (Developer)",
-        "description": "Page with recipe search with theme toggle, various search filters, pagination, modal windows, with dynamic content rendering, animations and adding recipe to favorites logic. My tasks: search filters, in catalog, on-scroll animations."
-      },
-      {
-        "title": "ContactHub",
-        "type": "Training project",
-        "description": "A contact storage app with authorization, asynchronous Redux and a beautiful interface using Ant-design."
-      },
-      {
-        "title": "The Watch Spot",
-        "type": "Team project",
-        "description": "A landing page with wide functionality, including theme switch, selecting watch from catalog, slider, mobile menu, and modal window, scroll-up button, and obviously, beautiful animations. My tasks: modal window, mobile menu."
-      },
-      {
-        "title": "Filmic explorer",
-        "type": "Training project",
-        "description": "A small app about movies to improve routing."
-      }
-    ]
+    "setoLogistic": {
+      "title": "SETO LOGISTIC | On-Demand Transport Solutions",
+      "type": "Single project (Full Stack Developer)",
+      "description": "Developed a logistics web application providing users with tools to calculate transportation routes, select vehicles, and manage orders. Implemented key features such as dynamic pricing based on distance and vehicle type, multilingual support, and payment integration. Enhanced user experience with responsive design, interactive elements, and accessibility optimizations. The project utilized React for the frontend and integrated Netlify Functions for backend operations. Achievement: Successfully built a scalable, multilingual order system with secure payment functionality and real-time order tracking.",
+      "viewProject": "View Project",
+      "viewCode": "View Code"
+    },
+    "prixDeLor": {
+      "title": "Prix de l'or | Reliable Information for Precious Metal Evaluation",
+      "type": "Single project (Full Stack Developer)",
+      "description": "Developed a web platform designed to provide users with comprehensive information about gold and other precious metals. The site includes features such as detailed descriptions of gold types (karats, coins, etc.), partner organizations offering metal evaluation services, and multilingual support to cater to a diverse audience. The project focused on delivering a responsive and user-friendly design, integrated with Netlify Functions for seamless data management. Achievement: Successfully created an informative and visually appealing platform tailored to the French market, ensuring accessibility and usability.",
+      "viewProject": "View Project",
+      "viewCode": "View Code"
+    },
+    "angelSystems": {
+      "title": "Angel Systems | Innovation Conveyor",
+      "type": "Single project (Full Stack Developer)",
+      "description": "Independent development of features of various scales and complexity, including full implementation, design, and integration with backend systems. Improved responsive layouts and resolved bugs across the application. Worked with React, MUI, React Spring, Three.js, Axios, and i18next for the frontend, alongside tools like ESLint, Prettier, and Husky for code quality. Achievement: Fully developed and implemented a multilingual support system, real-time posture monitoring feature, and an admin panel for managing user data autonomously.",
+      "viewProject": "View Project",
+      "viewCode": "View Code"
+    },
+    "tastyTreats": {
+      "title": "Tasty Treats",
+      "type": "Team project (Developer)",
+      "description": "Page with recipe search with theme toggle, various search filters, pagination, modal windows, with dynamic content rendering, animations and adding recipe to favorites logic. My tasks: search filters, in catalog, on-scroll animations.",
+      "viewProject": "View Project",
+      "viewCode": "View Code"
+    },
+    "contactHub": {
+      "title": "ContactHub",
+      "type": "Training project",
+      "description": "A contact storage app with authorization, asynchronous Redux and a beautiful interface using Ant-design.",
+      "viewProject": "View Project",
+      "viewCode": "View Code"
+    },
+    "watchSpot": {
+      "title": "The Watch Spot",
+      "type": "Team project",
+      "description": "A landing page with wide functionality, including theme switch, selecting watch from catalog, slider, mobile menu, and modal window, scroll-up button, and obviously, beautiful animations. My tasks: modal window, mobile menu.",
+      "viewProject": "View Project",
+      "viewCode": "View Code"
+    },
+    "filmicExplorer": {
+      "title": "Filmic explorer",
+      "type": "Training project",
+      "description": "A small app about movies to improve routing.",
+      "viewProject": "View Project",
+      "viewCode": "View Code"
+    }
   },
    "resume": {
     "downloadCV": "Download CV",
